@@ -25,18 +25,6 @@ Write the SQL statements that implement functions of your rental store managemen
 # Introduction - Books
 In this exercise you will practice designing a database ERD, create the database in Python and load the data from a .csv file, then export the database to a .SQL file in your repository.
 
-# Project Data
-
-The four files you will need to add as tables to your database are:
-
-[users](https://docs.google.com/spreadsheets/d/1_c2WTx_eiH8pUM-PTgyt7T4aIl1A3Cp1ukPVPEijoYc/gviz/tq?tqx=out:csv&sheet=users)
-
-[books](https://docs.google.com/spreadsheets/d/1_D-vW7GXiQfG6D9nzjscgVctKLb6TZl_o8ERNH_tet8/gviz/tq?tqx=out:csv&sheet=books)
-
-[authors](https://docs.google.com/spreadsheets/d/17rABPt5eaIxfhGO75dYCbH-5IloKsAR0HH9V6VC43ZI/gviz/tq?tqx=out:csv&sheet=authors)
-
-[favorites](https://docs.google.com/spreadsheets/d/1SLb3RAhcrZsPWRwR0_njWX7KssUYZ16JFsVqBkSU2GI/gviz/tq?tqx=out:csv&sheet=favorite)
-
 # Solution Description
 
 ## Part 1) Design an ERD
@@ -66,3 +54,13 @@ Here are some considerations as you design the database:
 1. Rather than creating the database in MySQL workbench with forward engineering, use PyMySQL in Jupyter Notebook.
 
 2. Create a connection and name the database, i.e., "books".
+
+3.  The four files you will need to add as tables to your database are:
+
+    [users](https://docs.google.com/spreadsheets/d/1_c2WTx_eiH8pUM-PTgyt7T4aIl1A3Cp1ukPVPEijoYc/gviz/tq?tqx=out:csv&sheet=users)
+
+    [books](https://docs.google.com/spreadsheets/d/1_D-vW7GXiQfG6D9nzjscgVctKLb6TZl_o8ERNH_tet8/gviz/tq?tqx=out:csv&sheet=books)
+
+    [authors](https://docs.google.com/spreadsheets/d/17rABPt5eaIxfhGO75dYCbH-5IloKsAR0HH9V6VC43ZI/gviz/tq?tqx=out:csv&sheet=authors)
+
+    [favorites](https://docs.google.com/spreadsheets/d/1SLb3RAhcrZsPWRwR0_njWX7KssUYZ16JFsVqBkSU2GI/gviz/tq?tqx=out:csv&sheet=favorite)
